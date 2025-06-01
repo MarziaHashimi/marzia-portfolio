@@ -555,13 +555,13 @@ a{
   z-index: 999;
 }
 
-.theme-toggle .sun {
+.theme-toggle .moon {
   font-size: 2rem;
   color: #fff;
     text-shadow: 0 0 10px #f4f802;
 }
 
-.theme-toggle .moon {
+.theme-toggle .sun {
   font-size: 2rem;
   color: #fff;
     text-shadow: 0 0 15px #2e2e2c;

@@ -555,13 +555,13 @@ a{
   z-index: 999;
 }
 
-.theme-toggle .moon {
+.theme-toggle .sun {
   font-size: 2rem;
   color: #fff;
     text-shadow: 0 0 10px #f4f802;
 }
 
-.theme-toggle .sun {
+.theme-toggle .moon {
   font-size: 2rem;
   color: #fff;
     text-shadow: 0 0 15px #2e2e2c;
@@ -653,18 +653,18 @@ text-shadow: none;
 
 /* Show moon icon by default (light mode) */
 .theme-toggle .sun {
-  display: none;
+  display: inline;
 }
 .theme-toggle .moon {
-  display: inline;
+  display: none;
 }
 
 /* When checkbox is checked (dark mode), show sun and hide moon */
 #theme-toggle:checked + .theme-toggle .sun {
-  display: inline;
+  display: none;
 }
 #theme-toggle:checked + .theme-toggle .moon {
-  display: none;
+  display: inline;
 }
 
 
